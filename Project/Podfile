@@ -1,0 +1,45 @@
+#source 'https://github.com/CocoaPods/Specs.git'
+#source 'https://github.com/ChatterMan/ZXExtensionPodsSpecs.git'
+platform :ios, '10.0'
+
+target 'Project' do
+
+    use_frameworks!
+    #三方开源
+    pod 'QMUIKit'
+#    pod 'IQKeyboardManager'
+#    pod 'SDWebImage', '~> 5.8.0'
+#    pod 'SDWebImageWebPCoder'
+#    pod 'FMDB'
+#    pod 'MJRefresh'
+#    pod 'AFNetworking'
+#    pod 'Masonry'
+#    pod 'DZNEmptyDataSet'
+#    pod 'SVProgressHUD'
+#    pod 'MBProgressHUD'
+#    pod 'ReactiveObjC', '~> 3.1.1'
+#    pod 'MMKV'
+#    pod 'GPUImage'
+#    pod 'HBDNavigationBar' #导航条
+#    pod 'SDCycleScrollView','>= 1.82' #轮播图
+    #高德定位
+#    pod 'AMapLocation'
+    # 七牛云
+#    pod 'Qiniu', '~> 8.0'
+    # 极光推送
+#    pod 'JPush'
+    # 友盟统计
+#    pod 'UMCCommon'
+#    pod 'UMCAnalytics'
+    # U-Share SDK UI模块（分享面板，建议添加）
+#    pod 'UMengUShare/UI'
+    # 集成微信(精简版0.2M)
+#    pod 'UMengUShare/Social/ReducedWeChat'
+    # 集成微信(完整版14.4M)
+#    pod 'UMengUShare/Social/WeChat'
+
+    # 自定义组件
+#    pod 'QNYPNetwork', :git => 'https://github.com/ChatterMan/QNYPNetwork.git'
+#    pod 'ZXExtension', :git => 'https://github.com/ChatterMan/ZXExtension.git'
+#    pod 'ZXTools', :git => 'https://github.com/ChatterMan/ZXTools.git'
+end
