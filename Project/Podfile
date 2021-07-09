@@ -7,7 +7,7 @@ target 'Project' do
     use_frameworks!
     #三方开源
     pod 'QMUIKit'
-#    pod 'IQKeyboardManager'
+    pod 'IQKeyboardManager'
 #    pod 'SDWebImage', '~> 5.8.0'
 #    pod 'SDWebImageWebPCoder'
 #    pod 'FMDB'

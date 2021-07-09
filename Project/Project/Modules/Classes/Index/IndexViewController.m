@@ -17,6 +17,10 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     
+    QMUITextView *v = QMUITextView.new;
+    [self.view addSubview:v];
+    v.frame = CGRectMake(0, 500, 300, 100);
+    v.placeholder = @"eshi";
     
     
 }

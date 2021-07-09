@@ -1,4 +1,5 @@
 PODS:
+  - IQKeyboardManager (6.5.6)
   - QMUIKit (4.2.3):
     - QMUIKit/QMUIComponents (= 4.2.3)
     - QMUIKit/QMUICore (= 4.2.3)
@@ -321,15 +322,18 @@ PODS:
   - QMUIKit/QMUIWeakObjectContainer (4.2.3)
 
 DEPENDENCIES:
+  - IQKeyboardManager
   - QMUIKit
 
 SPEC REPOS:
   trunk:
+    - IQKeyboardManager
     - QMUIKit
 
 SPEC CHECKSUMS:
+  IQKeyboardManager: 2a6e97afdafc7becf0cb17a9a8d795e3a980717f
   QMUIKit: c047f987b14be9f48df47cb934a2d21ccd7ef4b6
 
-PODFILE CHECKSUM: ddeda27ee6dfa3a93e6eb2533604d548f17729d2
+PODFILE CHECKSUM: 7e5d308ab05064feb9ac7be98f836f344dede52c
 
 COCOAPODS: 1.10.1
